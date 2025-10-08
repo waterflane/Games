@@ -178,10 +178,10 @@ def main():
         field_display(maze)
 
         if state == -1: 
-            print('You win!!')
+            print('False')
             break
         if state == 1: 
-            print('False')
+            print('Win!')
             break
 
 if __name__ == "__main__":
